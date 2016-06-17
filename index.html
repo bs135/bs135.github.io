@@ -59,7 +59,7 @@
             <h2 class="blog-post-title">Hello world!</h2>
             <p class="blog-post-meta">June 07, 2016 by <a href="#">BS</a></p>
 
-            <p class="markdown-post">
+            <p id="markdownin" class="markdown-post">
 1. Item 1
 2. Item 2
 3. Item 3
@@ -69,7 +69,7 @@
 ## This is an h2 tag
 ###### This is an h6 tag
 			</p>
-            <p></p>
+            <p id="markdownout"></p>
             <p></p>
             <p></p>
             <p></p>
@@ -119,10 +119,14 @@
 	
 	<script>
 		$( document ).ready(function() {
+			var mdtext = $("#markdownin").value;
+			var converter = new showdown.Converter();
+			$("#markdownout").innerHTML = converter.makeHtml(mdtext);
+
 			$(".markdown-post").each(function() {
-				var mdtext = $(this).value;
-				var converter = new showdown.Converter();
-				$(this).innerHTML = converter.makeHtml(mdtext);
+				// var mdtext = $(this).value;
+				// var converter = new showdown.Converter();
+				// $(this).innerHTML = converter.makeHtml(mdtext);
 			});
 		});
 	</script>
