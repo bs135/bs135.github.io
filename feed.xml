@@ -2,13 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BS&#39; Page</title>
-    <description>TechTag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC
+    <description>Tag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC, Robotics
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jun 2016 13:10:44 +0700</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 13:10:44 +0700</lastBuildDate>
+    <pubDate>Sat, 18 Jun 2016 15:10:57 +0700</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 15:10:57 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Building AVR Toolchain for Windows</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;To compiling a avr source on windows, you can make either way:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install &lt;a href=&quot;http://www.atmel.com/Microsite/atmel-studio&quot;&gt;Atmel Studio&lt;/a&gt;: This way is very simple. &lt;a href=&quot;http://www.atmel.com/Microsite/atmel-studio&quot;&gt;Atmel Studio&lt;/a&gt; include almost everything: awesome IDE, toolchain for compiling, support debugger, downloader… But &lt;a href=&quot;http://www.atmel.com/Microsite/atmel-studio&quot;&gt;Atmel Studio&lt;/a&gt; only support for Windows. So, if you have an AVR-open-source written on linux, you will have trouble to compile it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install AVR Toolchain for Windows&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;building-avr-toolchain-for-windows&quot;&gt;Building AVR Toolchain for Windows&lt;/h2&gt;
+
+&lt;h4 id=&quot;installation-requirements&quot;&gt;Installation requirements:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mingw.org/&quot;&gt;MinGW&lt;/a&gt;: Minimalist GNU for Windows.
+    &lt;ul&gt;
+      &lt;li&gt;It is a native Windows port of the GNU Compiler Collection (GCC), a minimalist development environment for native Microsoft Windows applications.&lt;/li&gt;
+      &lt;li&gt;Download and Install from &lt;a href=&quot;https://sourceforge.net/projects/mingw/files/latest/download?source=files&quot;&gt;Sourceforge&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Install necessary MSYS packages: msys-base, msys-make, msys-core, msys-bash.&lt;/li&gt;
+      &lt;li&gt;To test, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;make --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx&quot;&gt;AVR Toolchain&lt;/a&gt; for Windows
+    &lt;ul&gt;
+      &lt;li&gt;Download
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx&quot;&gt;Atmel AVR 8-bit Toolchain for Windows&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx&quot;&gt;Atmel 32-bit Toolchain for Windows&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Install: extract downloaded packages to you disk, eg.:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\atmel\avr8-gnu-toolchain&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\atmel\avr32-gnu-toolchain&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Update PATH environment variable to these folder:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\atmel\avr8-gnu-toolchain\bin&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\atmel\avr32-gnu-toolchain\bin&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;To test, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;avr-gcc --version&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;avr32-gcc --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/Microsite/atmel-studio&quot;&gt;Atmel Studio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mingw.org/&quot;&gt;MinGW&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx&quot;&gt;AVR Toolchain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 18 Jun 2016 00:00:00 +0700</pubDate>
+        <link>http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html</link>
+        <guid isPermaLink="true">http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html</guid>
+        
+        
+        <category>avr</category>
+        
+      </item>
     
       <item>
         <title>Build static websites and blog with Jekyll!</title>

@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="Tag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC, Robotics
-">
+  <title>Building AVR Toolchain for Windows</title>
+  <meta name="description" content="Introduction">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://bs135.github.io/about/">
+  <link rel="canonical" href="http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html">
   <link rel="alternate" type="application/rss+xml" title="BS' Page" href="http://bs135.github.io/feed.xml">
 </head>
 
@@ -63,106 +62,72 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">Building AVR Toolchain for Windows</h1>
+    <p class="post-meta"><time datetime="2016-06-18T00:00:00+07:00" itemprop="datePublished">Jun 18, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <h1 id="this-is-a-technical-blog">This is a technical blog</h1>
-<p>This is not merely a personal blog. 
-This is the page archive the knowledge, the notes that I have gained in my learning and working process. 
-Some of them could be my notes, so I can look back when needed.</p>
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="introduction">Introduction</h2>
 
-<h1 id="research-interests">Research Interests:</h1>
+<p>To compiling a avr source on windows, you can make either way:</p>
+
 <ul>
-  <li>Robotics</li>
-  <li>House control automatic</li>
-  <li>High-tech agriculture</li>
-  <li>Environmental monitoring</li>
-  <li>IoT</li>
+  <li>
+    <p>Install <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a>: This way is very simple. <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a> include almost everything: awesome IDE, toolchain for compiling, support debugger, downloader… But <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a> only support for Windows. So, if you have an AVR-open-source written on linux, you will have trouble to compile it.</p>
+  </li>
+  <li>
+    <p>Install AVR Toolchain for Windows</p>
+  </li>
 </ul>
 
-<h1 id="technical">Technical:</h1>
-<ul>
-  <li>Hardware: design schematic and layout circuit on Altium Designer</li>
-  <li>Software:
-    <ul>
-      <li>Web: C# ASP.NET MVC, Bootstrap, jQuery.</li>
-      <li>Application: C# WPF, C# WinForm.</li>
-      <li>DBMS: MSSQL, MySQL, PostgreSQL.</li>
-    </ul>
-  </li>
-  <li>Firmware: programing for controller: Atmel AVR, STMicroelectronics, Microchip, NXP.</li>
-</ul>
+<h2 id="building-avr-toolchain-for-windows">Building AVR Toolchain for Windows</h2>
 
-<h1 id="frequently-used-tools">Frequently used tools:</h1>
+<h4 id="installation-requirements">Installation requirements:</h4>
+
 <ul>
-  <li>PCB Tools
+  <li><a href="http://www.mingw.org/">MinGW</a>: Minimalist GNU for Windows.
     <ul>
-      <li>Altium Designer</li>
-      <li>OrCAD</li>
-      <li>EAGLE</li>
-      <li>KiCad</li>
-      <li>Gerbv</li>
+      <li>It is a native Windows port of the GNU Compiler Collection (GCC), a minimalist development environment for native Microsoft Windows applications.</li>
+      <li>Download and Install from <a href="https://sourceforge.net/projects/mingw/files/latest/download?source=files">Sourceforge</a></li>
+      <li>Install necessary MSYS packages: msys-base, msys-make, msys-core, msys-bash.</li>
+      <li>To test, you can type command <code class="highlighter-rouge">make --version</code> in a Window Command Prompt.</li>
     </ul>
   </li>
-  <li>Firmware programing
+  <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">AVR Toolchain</a> for Windows
     <ul>
-      <li>Atmel Studio</li>
-      <li>IAR</li>
-      <li>Keil uVision</li>
-      <li>Arduino IDE</li>
-    </ul>
-  </li>
-  <li>Software programing
-    <ul>
-      <li>Visual Studio</li>
-      <li>Eclipse</li>
-    </ul>
-  </li>
-  <li>Graphic design
-    <ul>
-      <li>Photoshop</li>
-      <li>CorelDRAW</li>
-      <li>AutoCAD</li>
-    </ul>
-  </li>
-  <li>Git
-    <ul>
-      <li>Git Bash</li>
-      <li>SourceTree</li>
-    </ul>
-  </li>
-  <li>Editor
-    <ul>
-      <li>NotePad++</li>
-      <li>Sublime Text</li>
-      <li>WebStorm</li>
-    </ul>
-  </li>
-  <li>Utilities
-    <ul>
-      <li>Beyond Compare</li>
-      <li>Evernote Sticky Note</li>
-      <li>Terminal by Br@y</li>
+      <li>Download
+        <ul>
+          <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">Atmel AVR 8-bit Toolchain for Windows</a></li>
+          <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">Atmel 32-bit Toolchain for Windows</a></li>
+        </ul>
+      </li>
+      <li>Install: extract downloaded packages to you disk, eg.:
+        <ul>
+          <li><code class="highlighter-rouge">C:\atmel\avr8-gnu-toolchain</code></li>
+          <li><code class="highlighter-rouge">C:\atmel\avr32-gnu-toolchain</code></li>
+        </ul>
+      </li>
+      <li>Update PATH environment variable to these folder:
+        <ul>
+          <li><code class="highlighter-rouge">C:\atmel\avr8-gnu-toolchain\bin</code></li>
+          <li><code class="highlighter-rouge">C:\atmel\avr32-gnu-toolchain\bin</code></li>
+        </ul>
+      </li>
+      <li>To test, you can type command <code class="highlighter-rouge">avr-gcc --version</code> or <code class="highlighter-rouge">avr32-gcc --version</code> in a Window Command Prompt.</li>
     </ul>
   </li>
 </ul>
 
-<h1 id="personal-project">Personal project:</h1>
+<h2 id="references">References</h2>
 <ul>
-  <li><a href="http://chipfc.com">ChipFC</a></li>
-  <li>ThanhPhan.vn</li>
-  <li>MashMech</li>
+  <li><a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a></li>
+  <li><a href="http://www.mingw.org/">MinGW</a></li>
+  <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">AVR Toolchain</a></li>
 </ul>
 
-<h1 id="hobby">Hobby:</h1>
-<ul>
-  <li>Badminton</li>
-  <li>Football</li>
-</ul>
 
   </div>
 

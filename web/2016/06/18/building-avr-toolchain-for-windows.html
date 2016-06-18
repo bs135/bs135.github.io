@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="Tag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC, Robotics
-">
+  <title>Building AVR Toolchain for Windows</title>
+  <meta name="description" content="Introduction">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://bs135.github.io/about/">
+  <link rel="canonical" href="http://bs135.github.io/web/2016/06/18/building-avr-toolchain-for-windows.html">
   <link rel="alternate" type="application/rss+xml" title="BS' Page" href="http://bs135.github.io/feed.xml">
 </head>
 
@@ -63,106 +62,67 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title" itemprop="name headline">Building AVR Toolchain for Windows</h1>
+    <p class="post-meta"><time datetime="2016-06-18T00:00:00+07:00" itemprop="datePublished">Jun 18, 2016</time></p>
   </header>
 
-  <div class="post-content">
-    <h1 id="this-is-a-technical-blog">This is a technical blog</h1>
-<p>This is not merely a personal blog. 
-This is the page archive the knowledge, the notes that I have gained in my learning and working process. 
-Some of them could be my notes, so I can look back when needed.</p>
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="introduction">Introduction</h2>
 
-<h1 id="research-interests">Research Interests:</h1>
+<p>I build this blog with <a href="https://jekyllrb.com/">Jekyll</a>. It strong and useful if:</p>
+
 <ul>
-  <li>Robotics</li>
-  <li>House control automatic</li>
-  <li>High-tech agriculture</li>
-  <li>Environmental monitoring</li>
-  <li>IoT</li>
+  <li>Simple: Get up and running in few seconds.</li>
+  <li>Static: No more databases required.</li>
+  <li>Awesome: <a href="https://jekyllrb.com/">Jekyll</a> support <a href="https://daringfireball.net/projects/markdown/">Markdown syntax</a>, so you can write a post as a text file, not html file.</li>
+  <li>GitHub Page compatible: github page it free and useful, but it is not support dynamic websites with database. In this case, Jekyll is a good choice.</li>
 </ul>
 
-<h1 id="technical">Technical:</h1>
-<ul>
-  <li>Hardware: design schematic and layout circuit on Altium Designer</li>
-  <li>Software:
+<h2 id="building-jekyll-for-window">Building Jekyll for Window</h2>
+<p>It is a note for me. I am using Window 10, so there are some steps to take.</p>
+
+<h4 id="installation">Installation</h4>
+
+<p>Full guide <a href="https://jekyllrb.com/docs/windows/#installation">here</a></p>
+
+<ol>
+  <li>Install a package manager for Windows called <a href="https://chocolatey.org/install">Chocolatey</a>
     <ul>
-      <li>Web: C# ASP.NET MVC, Bootstrap, jQuery.</li>
-      <li>Application: C# WPF, C# WinForm.</li>
-      <li>DBMS: MSSQL, MySQL, PostgreSQL.</li>
+      <li>To install chocolatey, open an <strong>administrative command prompt</strong> (cmd) and run command:
+<code class="highlighter-rouge">@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</code></li>
     </ul>
   </li>
-  <li>Firmware: programing for controller: Atmel AVR, STMicroelectronics, Microchip, NXP.</li>
+  <li>Install Ruby via Chocolatey: <code class="highlighter-rouge">choco install ruby -y</code></li>
+  <li>Reopen a command prompt and install Jekyll: <code class="highlighter-rouge">gem install jekyll</code></li>
+</ol>
+
+<h4 id="location-in-my-pc">Location in my PC</h4>
+
+<p>By default, these pakages will be installed:</p>
+
+<ul>
+  <li>Chocolatey: <code class="highlighter-rouge">C:\ProgramData\chocolatey</code></li>
+  <li>Ruby: <code class="highlighter-rouge">C:\tools\ruby23</code></li>
+  <li>Jekyll: <code class="highlighter-rouge">C:\tools\ruby23\lib\ruby\gems\2.3.0\gems</code></li>
 </ul>
 
-<h1 id="frequently-used-tools">Frequently used tools:</h1>
+<h2 id="some-usefull-link">Some usefull link</h2>
+
 <ul>
-  <li>PCB Tools
-    <ul>
-      <li>Altium Designer</li>
-      <li>OrCAD</li>
-      <li>EAGLE</li>
-      <li>KiCad</li>
-      <li>Gerbv</li>
-    </ul>
-  </li>
-  <li>Firmware programing
-    <ul>
-      <li>Atmel Studio</li>
-      <li>IAR</li>
-      <li>Keil uVision</li>
-      <li>Arduino IDE</li>
-    </ul>
-  </li>
-  <li>Software programing
-    <ul>
-      <li>Visual Studio</li>
-      <li>Eclipse</li>
-    </ul>
-  </li>
-  <li>Graphic design
-    <ul>
-      <li>Photoshop</li>
-      <li>CorelDRAW</li>
-      <li>AutoCAD</li>
-    </ul>
-  </li>
-  <li>Git
-    <ul>
-      <li>Git Bash</li>
-      <li>SourceTree</li>
-    </ul>
-  </li>
-  <li>Editor
-    <ul>
-      <li>NotePad++</li>
-      <li>Sublime Text</li>
-      <li>WebStorm</li>
-    </ul>
-  </li>
-  <li>Utilities
-    <ul>
-      <li>Beyond Compare</li>
-      <li>Evernote Sticky Note</li>
-      <li>Terminal by Br@y</li>
-    </ul>
-  </li>
+  <li><a href="https://daringfireball.net/projects/markdown/">Markdown syntax</a></li>
 </ul>
 
-<h1 id="personal-project">Personal project:</h1>
+<h2 id="references">References</h2>
+
 <ul>
-  <li><a href="http://chipfc.com">ChipFC</a></li>
-  <li>ThanhPhan.vn</li>
-  <li>MashMech</li>
+  <li>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll.</li>
+  <li>File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</li>
+  <li>If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</li>
 </ul>
 
-<h1 id="hobby">Hobby:</h1>
-<ul>
-  <li>Badminton</li>
-  <li>Football</li>
-</ul>
 
   </div>
 
@@ -229,7 +189,7 @@ viewBox="0 0 8020 8021"
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Tag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC, Robotics
+        <p>TechTag: Hardware Design, Altium Designer, C# WinForm, C# WPF, C# ASP.NET MVC
 </p>
       </div>
     </div>
