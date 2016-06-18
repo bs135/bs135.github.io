@@ -6,23 +6,67 @@
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jun 2016 12:26:39 +0700</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 12:26:39 +0700</lastBuildDate>
+    <pubDate>Sat, 18 Jun 2016 13:10:44 +0700</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 13:10:44 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;I build this blog with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. It strong and useful if:&lt;/p&gt;
+        <title>Build static websites and blog with Jekyll!</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;I build this blog with &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. It strong and useful if:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Simple&lt;/li&gt;
-  &lt;li&gt;Static&lt;/li&gt;
+  &lt;li&gt;Simple: Get up and running in few seconds.&lt;/li&gt;
+  &lt;li&gt;Static: No more databases required.&lt;/li&gt;
+  &lt;li&gt;Awesome: &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; support &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown syntax&lt;/a&gt;, so you can write a post as a text file, not html file.&lt;/li&gt;
+  &lt;li&gt;GitHub Page compatible: github page it free and useful, but it is not support dynamic websites with database. In this case, Jekyll is a good choice.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;building-jekyll-for-window&quot;&gt;Building Jekyll for Window&lt;/h2&gt;
+&lt;p&gt;It is a note for me. I am using Window 10, so there are some steps to take.&lt;/p&gt;
+
+&lt;h4 id=&quot;installation&quot;&gt;Installation&lt;/h4&gt;
+
+&lt;p&gt;Full guide &lt;a href=&quot;https://jekyllrb.com/docs/windows/#installation&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install a package manager for Windows called &lt;a href=&quot;https://chocolatey.org/install&quot;&gt;Chocolatey&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;To install chocolatey, open an &lt;strong&gt;administrative command prompt&lt;/strong&gt; (cmd) and run command:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install Ruby via Chocolatey: &lt;code class=&quot;highlighter-rouge&quot;&gt;choco install ruby -y&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Reopen a command prompt and install Jekyll: &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;location-in-my-pc&quot;&gt;Location in my PC&lt;/h4&gt;
+
+&lt;p&gt;By default, these pakages will be installed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chocolatey: &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\ProgramData\chocolatey&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Ruby: &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\tools\ruby23&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Jekyll: &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\tools\ruby23\lib\ruby\gems\2.3.0\gems&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-usefull-link&quot;&gt;Some usefull link&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll.&lt;/li&gt;
+  &lt;li&gt;File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
-        <pubDate>Fri, 17 Jun 2016 23:08:46 +0700</pubDate>
+        <pubDate>Fri, 17 Jun 2016 00:00:00 +0700</pubDate>
         <link>http://bs135.github.io/web/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</link>
         <guid isPermaLink="true">http://bs135.github.io/web/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</guid>
         
