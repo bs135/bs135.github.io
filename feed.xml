@@ -6,8 +6,8 @@
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jun 2016 15:18:02 +0700</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 15:18:02 +0700</lastBuildDate>
+    <pubDate>Fri, 24 Jun 2016 21:35:25 +0700</pubDate>
+    <lastBuildDate>Fri, 24 Jun 2016 21:35:25 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -35,7 +35,7 @@
       &lt;li&gt;It is a native Windows port of the GNU Compiler Collection (GCC), a minimalist development environment for native Microsoft Windows applications.&lt;/li&gt;
       &lt;li&gt;Download and Install from &lt;a href=&quot;https://sourceforge.net/projects/mingw/files/latest/download?source=files&quot;&gt;Sourceforge&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Install necessary MSYS packages: msys-base, msys-make, msys-core, msys-bash.&lt;/li&gt;
-      &lt;li&gt;To test, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;make --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
+      &lt;li&gt;For testing, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;make --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx&quot;&gt;AVR Toolchain&lt;/a&gt; for Windows
@@ -58,7 +58,7 @@
           &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;C:\atmel\avr32-gnu-toolchain\bin&lt;/code&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;To test, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;avr-gcc --version&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;avr32-gcc --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
+      &lt;li&gt;For testing, you can type command &lt;code class=&quot;highlighter-rouge&quot;&gt;avr-gcc --version&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;avr32-gcc --version&lt;/code&gt; in a Window Command Prompt.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
