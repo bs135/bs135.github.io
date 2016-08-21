@@ -6,9 +6,227 @@
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Jun 2016 21:35:25 +0700</pubDate>
-    <lastBuildDate>Fri, 24 Jun 2016 21:35:25 +0700</lastBuildDate>
+    <pubDate>Sun, 21 Aug 2016 11:49:26 +0700</pubDate>
+    <lastBuildDate>Sun, 21 Aug 2016 11:49:26 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Những điều cần biết về bàn phím cơ</title>
+        <description>&lt;h2 id=&quot;bn-phm-c-l-g&quot;&gt;Bàn phím cơ là gì?&lt;/h2&gt;
+
+&lt;p&gt;Bàn phím cơ là công nghệ bàn phím cao cấp sử dụng công tắc riêng biệt (switch) cho từng phím. Điều này mang lại nhiều lợi ích cho bàn phím cơ mà các bàn phím thông thường không thể so sánh được.&lt;/p&gt;
+
+&lt;p&gt;Việc thay thế các linh kiện cao su bằng linh kiện kim loại khiến độ bền của bàn phím cơ cao hơn các bàn phím thông thường rất nhiều lần. Vì vậy, chế độ bảo hành của bàn phím cơ thường cũng dài hơn các bàn phím thông thường (bàn phím cơ Filco thường được bảo hành tới 60 tháng)&lt;/p&gt;
+
+&lt;p&gt;Một trong những đặc điểm rất được ưa chuộng của bàn phím cơ mà các loại bàn phím khác không thể có được chính là khả năng nhận phím khi chỉ mới nhấn xuống 1/2, giúp tốc độ gõ phím nhanh hơn và loại bỏ tác động xấu lên đầu ngón tay khi nhấn chạm đáy.&lt;/p&gt;
+
+&lt;p&gt;Các linh kiện kim loại cấu thành các swich được sắp xếp theo những cách khác biệt khiến cảm giác gõ trên mỗi loại bàn phím cơ là rất khác nhau nhưng đều có một điểm chung là rất thoải mái và khiến bạn không thể quay lại với bàn phím thông thường được nữa (bạn có thể xác nhận điều này bằng cách hỏi những người đã dùng qua bàn phím cơ).&lt;/p&gt;
+
+&lt;p&gt;Một đặc điểm nữa của bàn phím cơ chính là tính năng n-key rollover (nkro). Nhờ cấu tạo từ những switch riêng biệt thay cho hệ thống chuyển mạch như bàn phím thông thường mà bàn phím cơ có được tính năng đầy mạnh mẽ này. Với tính năng này, bàn phím cơ có thể nhận ra cùng lúc toàn bộ phím được nhấn thay vì chỉ 3-6 phím như các bàn phím thông thường.&lt;/p&gt;
+
+&lt;p&gt;Đồng hành với sự phát triển mạnh mẽ của bàn phím cơ chính là keycap, bạn có thể dễ dàng tùy biến bàn phím của mình bằng cách sử dụng những bộ keycap hàng độc với nhiều màu sắc, cấu tạo và thiết kế khác nhau, tạo nên một chiếc bàn phím đầy cá tính cho riêng bạn.&lt;/p&gt;
+
+&lt;p&gt;Những tính năng trên đã mang lại cho bàn phím cơ một khả năng gây nghiện rất cao và bị nhiều người xếp vào loại sản phẩm “không được thử dù chỉ một lần”. Nhưng với tư cách là một người kinh doanh sản phẩm này, tôi luôn khuyến khích bạn “hãy thử một lần cho biết”.&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;nguồn: &lt;a href=&quot;http://01.net.vn/ban-phim-co-la-gi&quot;&gt;PhongCachXanh&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;u-im-bn-phm-c&quot;&gt;Ưu điểm bàn phím cơ&lt;/h2&gt;
+
+&lt;h4 id=&quot;tui-th-cao&quot;&gt;Tuổi thọ cao&lt;/h4&gt;
+
+&lt;p&gt;Bàn phím thông thường sử dụng miếng cao su (rubber dome) đặt dưới mỗi phím. Khi người dùng gõ một phím nào đó, miếng cao su này sẽ lún xuống và chạm vào bảng mạch bên dưới. Nhược điểm lớn nhất là phím bấm cần phải chạm đáy thì phím đó mới được ghi nhận. Điều này gây ra phiền toái rất lớn khi cần phải gõ nhanh và chính xác. Ngoài ra thì tuổi thọ của miếng cao su này cũng không cao. Điều này khiến cho các nút nhấn bị chai và bạn cần phải dùng lực ngày càng mạnh hơn để kích hoạt các phím này.&lt;/p&gt;
+
+&lt;p&gt;Bàn phím cơ sử dụng các switch cơ học bền hơn miếng cao su thường thấy trong các bàn phím cơ học rất nhiều. Tuổi thọ trung bình của switch là trên 50 triệu lần nhấn còn rubber dome thông thường là 1-5 triệu lần nhấn.&lt;/p&gt;
+
+&lt;h4 id=&quot;anti-ghosting-v-nkro&quot;&gt;Anti-ghosting và NKRO&lt;/h4&gt;
+
+&lt;p&gt;Hầu hết các bàn phím thông thường chỉ nhận được 2-3 phím nhấn cùng lúc. Điều này gây khó khăn rất lớn khi bạn cần phải nhấn nhiều phím cùng lúc, đặc biệt là đối với các game thủ. Với bàn phím cơ, bạn có thể tận hưởng công nghệ NKRO : khả năng nhấn toàn bộ 104 phím cùng lúc. Vấn đề là liệu bạn có thể nhấn được 104 phím cùng lúc hay không?&lt;/p&gt;
+
+&lt;h4 id=&quot;ny-ca-phm&quot;&gt;Độ nẩy của phím&lt;/h4&gt;
+
+&lt;p&gt;Với cơ cấu switch sử dụng lò xo của bàn phím cơ, độ nẩy của phím được cải thiện rõ rệt so với các bàn phím thông thường sử dụng cao su.&lt;/p&gt;
+
+&lt;p&gt;Điều này đảm bảo bạn có thể dễ dàng tăng tốc độ nhấn phím, đặc biệt là trong trường hợp cần phải nhấn nhiều lần trên cùng một phím.&lt;/p&gt;
+
+&lt;h4 id=&quot;lc-nhn&quot;&gt;Lực nhấn&lt;/h4&gt;
+
+&lt;p&gt;Khác với các bàn phím thông thường, lực nhấn của bàn phím cơ sẽ không gia tăng theo thời gian sử dụng vì sử dụng lò xo.&lt;/p&gt;
+
+&lt;p&gt;Ngoài ra thì mỗi một loại switch đều có một lực nhấn khác nhau và bạn có thể lựa chọn lực nhấn cho phù hợp với nhu cầu của mình.&lt;/p&gt;
+
+&lt;h4 id=&quot;tng-tc--g-bn-phm&quot;&gt;Tăng tốc độ gõ bàn phím&lt;/h4&gt;
+
+&lt;p&gt;Độ nẩy cao, chỉ cần gõ 1/2 phím, cảm giác thoải mái khi sử dụng.&lt;/p&gt;
+
+&lt;p&gt;Tất cả những điều này sẽ giúp gia tăng tốc độ gõ phím của bạn.&lt;/p&gt;
+
+&lt;h4 id=&quot;cm-gic-nhn-phm&quot;&gt;Cảm giác nhấn phím&lt;/h4&gt;
+
+&lt;p&gt;Không phải ngẫu nhiên mà bàn phím cơ được xem là một sản phẩm dễ gây “nghiện”. Một khi đã sử dụng, bạn sẽ rất khó có khả năng quay trở về sử dụng bàn phím thường.&lt;/p&gt;
+
+&lt;h4 id=&quot;gim-chn-thng-ngn-tay&quot;&gt;Giảm chấn thương ngón tay&lt;/h4&gt;
+
+&lt;p&gt;Với những ai bị RSI (Repetitive strain injury) thì sẽ hiểu được lợi ích mà bàn phím cơ có thể mang lại.&lt;/p&gt;
+
+&lt;h4 id=&quot;kh-nng-thay-i-keycap&quot;&gt;Khả năng thay đổi keycap&lt;/h4&gt;
+
+&lt;p&gt;Một trong những thú vui khi sử dụng bàn phím cơ là khả năng thay đổi keycap với nhiều loại keycap với kiểu chữ, màu sắc và hình dáng khác nhau.&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;nguồn: &lt;a href=&quot;http://01.net.vn/vi-sao-ban-phim-co-tot-hon-cac-loai-ban-phim-khac&quot;&gt;PhongCachXanh&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;cc-loi-switch-trong-bn-phm-c&quot;&gt;Các loại switch trong bàn phím cơ&lt;/h2&gt;
+
+&lt;p&gt;Có nhiều hãng sản xuất switch cho bàn phím cơ như: Cherry, Gateron, Kailh… nhưng có vẻ như Cherry chiếm được cảm tình của người chơi phím cơ hơn.&lt;/p&gt;
+
+&lt;p&gt;Có nhiều loại switch khác nhau với những đặc tính khác nhau tùy thuộc vào sở thích và thói quen của người dùng. Có 4 loại switch cơ bản phân biệt dựa vào màu của lõi switch: Blue, Brown, Red, Black. Ngoài bốn loại cơ bản này Cherry cũng như các hãng khác cũng cho ra nhiều biến thể khác: White, Green, Yellow; thân switch màu trắng, đen, hoặc trong suốt để dẫn sáng trong các bàn phím cần hiệu ứng LED nền…&lt;/p&gt;
+
+&lt;p&gt;Đặc điểm chính của các loại switch cơ bản cho bàn phím cơ:&lt;/p&gt;
+
+&lt;table class=&quot;table table-bordered&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Cherry MX Blue&lt;/th&gt;
+      &lt;th&gt;Cherry MX Brown&lt;/th&gt;
+      &lt;th&gt;Cherry MX Red&lt;/th&gt;
+      &lt;th&gt;Cherry MX Black&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Loại switch&lt;/td&gt;
+      &lt;td&gt;Tactile &amp;amp; Clicky&lt;/td&gt;
+      &lt;td&gt;Tactile &amp;amp; Non-Clicky&lt;/td&gt;
+      &lt;td&gt;Non-Tactile &amp;amp; Non-Clicky&lt;/td&gt;
+      &lt;td&gt;Non-Tactile &amp;amp; Non-Clicky&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Lực nhấn&lt;/td&gt;
+      &lt;td&gt;50g&lt;/td&gt;
+      &lt;td&gt;45g&lt;/td&gt;
+      &lt;td&gt;45g&lt;/td&gt;
+      &lt;td&gt;60g&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hành trình phím&lt;/td&gt;
+      &lt;td&gt;4mm&lt;/td&gt;
+      &lt;td&gt;4mm&lt;/td&gt;
+      &lt;td&gt;4mm&lt;/td&gt;
+      &lt;td&gt;4mm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Điểm nhận thao tác phím&lt;/td&gt;
+      &lt;td&gt;2mm&lt;/td&gt;
+      &lt;td&gt;2mm&lt;/td&gt;
+      &lt;td&gt;2mm&lt;/td&gt;
+      &lt;td&gt;2mm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Độ bền&lt;/td&gt;
+      &lt;td&gt;50 triệu&lt;/td&gt;
+      &lt;td&gt;50 triệu&lt;/td&gt;
+      &lt;td&gt;50 triệu&lt;/td&gt;
+      &lt;td&gt;50 triệu&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;cherry-mx-blue-switch&quot;&gt;Cherry MX Blue switch&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blue-switch.gif&quot; alt=&quot;Cherry MX Blue switch&quot; title=&quot;Cherry MX Blue switch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Có tiếng click (clicky), có khấc (tactile).&lt;/p&gt;
+
+&lt;p&gt;Thường được xem là loại switch có cảm giác nhấn tốt nhất. Tuy nhiên, nhược điểm là có thể gây ồn cho người xung quanh.&lt;/p&gt;
+
+&lt;h4 id=&quot;cherry-mx-brown-switch&quot;&gt;Cherry MX Brown switch&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/brown-switch.gif&quot; alt=&quot;Cherry MX Brown switch&quot; title=&quot;Cherry MX Brown switch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Không tiếng click, có khấc.&lt;/p&gt;
+
+&lt;p&gt;Cảm giác nhấn khá giống blue switch nhưng không có tiếng click. Thích hợp với hầu hết mọi nhu cầu sử dụng.&lt;/p&gt;
+
+&lt;h4 id=&quot;cherry-mx-red-switch&quot;&gt;Cherry MX Red switch&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/red-switch.gif&quot; alt=&quot;Cherry MX Red switch&quot; title=&quot;Cherry MX Red switch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Không tiếng click, không khấc.&lt;/p&gt;
+
+&lt;p&gt;Là loại switch nhẹ nhất trong tất cả các loại switch, thích hợp với các loại game cần tốc độ nhanh.&lt;/p&gt;
+
+&lt;h4 id=&quot;cherry-mx-black-switch&quot;&gt;Cherry MX Black switch&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/black-switch.gif&quot; alt=&quot;Cherry MX Black switch&quot; title=&quot;Cherry MX Black switch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Không tiếng click, không khấc.&lt;/p&gt;
+
+&lt;p&gt;Cấu tạo tương tự với red switch nhưng nặng hơn. Là loại switch nặng nhất. Thích hợp cho game thủ cảm thấy red switch quá nhẹ.&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;xem thêm: &lt;a href=&quot;http://vietnammechkey.com/threads/faq-tong-hop-cac-loai-cherry-switch.7.html/&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;cc-loi-kch-c-v-layout-bn-phm&quot;&gt;Các loại kích cỡ và layout bàn phím&lt;/h2&gt;
+
+&lt;p&gt;Mỗi bàn phím khi nhà sản xuất làm ra sẽ phù hợp với một cộng đồng, một nhóm, một vài ngành đặc thù khác nhau. Tuy vậy chúng ta vẫn có thể chia nó thành các nhóm Kích cỡ như sau.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kích cỡ Full 104 keys&lt;/li&gt;
+  &lt;li&gt;Kích cỡ Tenkeyless 87 keys&lt;/li&gt;
+  &lt;li&gt;Kích cỡ Mini 75 keys&lt;/li&gt;
+  &lt;li&gt;Kích cỡ Mini 60 keys&lt;/li&gt;
+  &lt;li&gt;Kích cỡ Mini 40 keys&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ngoài kích cỡ, các bàn phím cơ còn khác nhau qua các bố trí các phím (layout). Các layout cơ bản có thể kể ra như: ANSI, ISO, JIS…&lt;/p&gt;
+
+&lt;h4 id=&quot;ansi&quot;&gt;ANSI&lt;/h4&gt;
+
+&lt;p&gt;Layout ANSI được sử dụng ở Mỹ, Hà Lan, …. và rất nhiều nước khác trên toàn thế giới trong đó có Việt Nam. (Nhìn cái phím Enter)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/616px-ANSI_layout_basic.svg.png&quot; alt=&quot;ANSI layout basic&quot; title=&quot;ANSI layout basic&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;iso&quot;&gt;ISO&lt;/h4&gt;
+
+&lt;p&gt;Layout ISO được sử dụng rộng rãi ở các nước thuộc khối Euro. Nó gồm 105 nút, 88 nút, 102 nút. Các bạn có thể gọi nó là layout UK cũng được. (Nhìn cái phím Enter)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/616px-ISO_layout_basic.svg.png&quot; alt=&quot;ISO layout basic&quot; title=&quot;ISO layout basic&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;jis&quot;&gt;JIS&lt;/h4&gt;
+
+&lt;p&gt;Layout JIS được sử dụng rất là phổ biến ở quê hương của Filco đó là Nhật Bản nhé. Nó được tích hợp thêm một số phím dành cho tiếng Nhật.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/616px-JIS_layout_basic.svg.png&quot; alt=&quot;JIS layout basic&quot; title=&quot;JIS layout basic&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;xem chi tiết tại: &lt;a href=&quot;http://vietnammechkey.com/threads/cac-loai-kich-co-layout-ban-phim.263.html&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;profile-keycap-bn-phm-c&quot;&gt;Profile keycap bàn phím cơ&lt;/h2&gt;
+
+&lt;p&gt;Các keycap trong các Profile khác nhau có hình dáng và độ cao khác nhau. Mỗi hãng sản xuất switch, keyboard thường tạo ra profile keycap riêng cho mình. Họ nghiên cứu ra để làm thỏa mãn đôi tay của bạn.&lt;/p&gt;
+
+&lt;p&gt;Một số Profile phổ biến như: OEM, Cherry, Tai-Hao, SP…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/profile_keycap.jpg&quot; alt=&quot;Profile keycap&quot; title=&quot;Profile keycap&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;em&gt;nguồn: &lt;a href=&quot;http://vietnammechkey.com/threads/profile-keycap-la-gi.510.html&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sat, 25 Jun 2016 00:00:00 +0700</pubDate>
+        <link>http://bs135.github.io/keyboard/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</link>
+        <guid isPermaLink="true">http://bs135.github.io/keyboard/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</guid>
+        
+        
+        <category>keyboard</category>
+        
+      </item>
     
       <item>
         <title>Building AVR Toolchain for Windows</title>
