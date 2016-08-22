@@ -6,8 +6,8 @@
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Aug 2016 11:49:26 +0700</pubDate>
-    <lastBuildDate>Sun, 21 Aug 2016 11:49:26 +0700</lastBuildDate>
+    <pubDate>Tue, 23 Aug 2016 00:23:04 +0700</pubDate>
+    <lastBuildDate>Tue, 23 Aug 2016 00:23:04 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -86,7 +86,7 @@
 
 &lt;p&gt;Đặc điểm chính của các loại switch cơ bản cho bàn phím cơ:&lt;/p&gt;
 
-&lt;table class=&quot;table table-bordered&quot;&gt;
+&lt;table class=&quot;table table-bordered table-striped table-hover&quot;&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt; &lt;/th&gt;
@@ -99,7 +99,7 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;Loại switch&lt;/td&gt;
-      &lt;td&gt;Tactile &amp;amp; Clicky&lt;/td&gt;
+      &lt;td&gt;Tactile &amp;amp;&lt;/td&gt;
       &lt;td&gt;Tactile &amp;amp; Non-Clicky&lt;/td&gt;
       &lt;td&gt;Non-Tactile &amp;amp; Non-Clicky&lt;/td&gt;
       &lt;td&gt;Non-Tactile &amp;amp; Non-Clicky&lt;/td&gt;
@@ -135,6 +135,11 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;Clicky: Có tiếng click&lt;/li&gt;
+  &lt;li&gt;Tactile: Có khấc&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h4 id=&quot;cherry-mx-blue-switch&quot;&gt;Cherry MX Blue switch&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/blue-switch.gif&quot; alt=&quot;Cherry MX Blue switch&quot; title=&quot;Cherry MX Blue switch&quot; /&gt;&lt;/p&gt;
@@ -167,7 +172,7 @@
 
 &lt;p&gt;Cấu tạo tương tự với red switch nhưng nặng hơn. Là loại switch nặng nhất. Thích hợp cho game thủ cảm thấy red switch quá nhẹ.&lt;/p&gt;
 
-&lt;p&gt;(&lt;em&gt;xem thêm: &lt;a href=&quot;http://vietnammechkey.com/threads/faq-tong-hop-cac-loai-cherry-switch.7.html/&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;nguồn: &lt;a href=&quot;http://vietnammechkey.com/threads/faq-tong-hop-cac-loai-cherry-switch.7.html/&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -203,7 +208,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/616px-JIS_layout_basic.svg.png&quot; alt=&quot;JIS layout basic&quot; title=&quot;JIS layout basic&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;(&lt;em&gt;xem chi tiết tại: &lt;a href=&quot;http://vietnammechkey.com/threads/cac-loai-kich-co-layout-ban-phim.263.html&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;nguồn: &lt;a href=&quot;http://vietnammechkey.com/threads/cac-loai-kich-co-layout-ban-phim.263.html&quot;&gt;vietnammechkey.com&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
 
 &lt;hr /&gt;
 
