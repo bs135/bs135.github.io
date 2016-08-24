@@ -6,8 +6,8 @@
 </description>
     <link>http://bs135.github.io/</link>
     <atom:link href="http://bs135.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Aug 2016 00:23:04 +0700</pubDate>
-    <lastBuildDate>Tue, 23 Aug 2016 00:23:04 +0700</lastBuildDate>
+    <pubDate>Wed, 24 Aug 2016 09:26:37 +0700</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 09:26:37 +0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -225,11 +225,11 @@
 &lt;hr /&gt;
 </description>
         <pubDate>Sat, 25 Jun 2016 00:00:00 +0700</pubDate>
-        <link>http://bs135.github.io/keyboard/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</link>
-        <guid isPermaLink="true">http://bs135.github.io/keyboard/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</guid>
+        <link>http://bs135.github.io/note/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</link>
+        <guid isPermaLink="true">http://bs135.github.io/note/2016/06/25/Nhung-dieu-can-biet-ve-ban-phim-co.html</guid>
         
         
-        <category>keyboard</category>
+        <category>note</category>
         
       </item>
     
@@ -295,11 +295,11 @@
 
 </description>
         <pubDate>Sat, 18 Jun 2016 00:00:00 +0700</pubDate>
-        <link>http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html</link>
-        <guid isPermaLink="true">http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html</guid>
+        <link>http://bs135.github.io/note/2016/06/18/building-avr-toolchain-for-windows.html</link>
+        <guid isPermaLink="true">http://bs135.github.io/note/2016/06/18/building-avr-toolchain-for-windows.html</guid>
         
         
-        <category>avr</category>
+        <category>note</category>
         
       </item>
     
@@ -360,11 +360,11 @@
 
 </description>
         <pubDate>Fri, 17 Jun 2016 00:00:00 +0700</pubDate>
-        <link>http://bs135.github.io/web/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</link>
-        <guid isPermaLink="true">http://bs135.github.io/web/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</guid>
+        <link>http://bs135.github.io/note/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</link>
+        <guid isPermaLink="true">http://bs135.github.io/note/2016/06/17/build-static-websites-and-blogs-with-jekyll.html</guid>
         
         
-        <category>web</category>
+        <category>note</category>
         
       </item>
     

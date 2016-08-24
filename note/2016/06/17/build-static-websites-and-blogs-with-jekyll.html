@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Building AVR Toolchain for Windows</title>
+  <title>Build static websites and blog with Jekyll!</title>
   <meta name="description" content="Introduction">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://bs135.github.io/avr/2016/06/18/building-avr-toolchain-for-windows.html">
+  <link rel="canonical" href="http://bs135.github.io/note/2016/06/17/build-static-websites-and-blogs-with-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="BS' Page" href="http://bs135.github.io/feed.xml">
 </head>
 
@@ -65,67 +65,62 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Building AVR Toolchain for Windows</h1>
-    <p class="post-meta"><time datetime="2016-06-18T00:00:00+07:00" itemprop="datePublished">Jun 18, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">Build static websites and blog with Jekyll!</h1>
+    <p class="post-meta"><time datetime="2016-06-17T00:00:00+07:00" itemprop="datePublished">Jun 17, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     <h2 id="introduction">Introduction</h2>
 
-<p>To compiling a avr source on windows, you can make either way:</p>
+<p>I build this blog with <a href="https://jekyllrb.com/">Jekyll</a>. It strong and useful if:</p>
 
 <ul>
-  <li>
-    <p>Install <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a>: This way is very simple. <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a> include almost everything: awesome IDE, toolchain for compiling, support debugger, downloader… But <a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a> only support for Windows. So, if you have an AVR-open-source written on linux, you will have trouble to compile it.</p>
-  </li>
-  <li>
-    <p>Install AVR Toolchain for Windows</p>
-  </li>
+  <li>Simple: Get up and running in few seconds.</li>
+  <li>Static: No more databases required.</li>
+  <li>Awesome: <a href="https://jekyllrb.com/">Jekyll</a> support <a href="https://daringfireball.net/projects/markdown/">Markdown syntax</a>, so you can write a post as a text file, not html file.</li>
+  <li>GitHub Page compatible: github page it free and useful, but it is not support dynamic websites with database. In this case, Jekyll is a good choice.</li>
 </ul>
 
-<h2 id="building-avr-toolchain-for-windows">Building AVR Toolchain for Windows</h2>
+<h2 id="building-jekyll-for-window">Building Jekyll for Window</h2>
+<p>It is a note for me. I am using Window 10, so there are some steps to take.</p>
 
-<h4 id="installation-requirements">Installation requirements:</h4>
+<h4 id="installation">Installation</h4>
+
+<p>Full guide <a href="https://jekyllrb.com/docs/windows/#installation">here</a></p>
+
+<ol>
+  <li>Install a package manager for Windows called <a href="https://chocolatey.org/install">Chocolatey</a>
+    <ul>
+      <li>To install chocolatey, open an <strong>administrative command prompt</strong> (cmd) and run command:
+<code class="highlighter-rouge">@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" &amp;&amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</code></li>
+    </ul>
+  </li>
+  <li>Install Ruby via Chocolatey: <code class="highlighter-rouge">choco install ruby -y</code></li>
+  <li>Reopen a command prompt and install Jekyll: <code class="highlighter-rouge">gem install jekyll</code></li>
+</ol>
+
+<h4 id="location-in-my-pc">Location in my PC</h4>
+
+<p>By default, these pakages will be installed:</p>
 
 <ul>
-  <li><a href="http://www.mingw.org/">MinGW</a>: Minimalist GNU for Windows.
-    <ul>
-      <li>It is a native Windows port of the GNU Compiler Collection (GCC), a minimalist development environment for native Microsoft Windows applications.</li>
-      <li>Download and Install from <a href="https://sourceforge.net/projects/mingw/files/latest/download?source=files">Sourceforge</a></li>
-      <li>Install necessary MSYS packages: msys-base, msys-make, msys-core, msys-bash.</li>
-      <li>For testing, you can type command <code class="highlighter-rouge">make --version</code> in a Window Command Prompt.</li>
-    </ul>
-  </li>
-  <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">AVR Toolchain</a> for Windows
-    <ul>
-      <li>Download
-        <ul>
-          <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">Atmel AVR 8-bit Toolchain for Windows</a></li>
-          <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">Atmel 32-bit Toolchain for Windows</a></li>
-        </ul>
-      </li>
-      <li>Install: extract downloaded packages to you disk, eg.:
-        <ul>
-          <li><code class="highlighter-rouge">C:\atmel\avr8-gnu-toolchain</code></li>
-          <li><code class="highlighter-rouge">C:\atmel\avr32-gnu-toolchain</code></li>
-        </ul>
-      </li>
-      <li>Update PATH environment variable to these folder:
-        <ul>
-          <li><code class="highlighter-rouge">C:\atmel\avr8-gnu-toolchain\bin</code></li>
-          <li><code class="highlighter-rouge">C:\atmel\avr32-gnu-toolchain\bin</code></li>
-        </ul>
-      </li>
-      <li>For testing, you can type command <code class="highlighter-rouge">avr-gcc --version</code> or <code class="highlighter-rouge">avr32-gcc --version</code> in a Window Command Prompt.</li>
-    </ul>
-  </li>
+  <li>Chocolatey: <code class="highlighter-rouge">C:\ProgramData\chocolatey</code></li>
+  <li>Ruby: <code class="highlighter-rouge">C:\tools\ruby23</code></li>
+  <li>Jekyll: <code class="highlighter-rouge">C:\tools\ruby23\lib\ruby\gems\2.3.0\gems</code></li>
+</ul>
+
+<h2 id="some-usefull-link">Some usefull link</h2>
+
+<ul>
+  <li><a href="https://daringfireball.net/projects/markdown/">Markdown syntax</a></li>
 </ul>
 
 <h2 id="references">References</h2>
+
 <ul>
-  <li><a href="http://www.atmel.com/Microsite/atmel-studio">Atmel Studio</a></li>
-  <li><a href="http://www.mingw.org/">MinGW</a></li>
-  <li><a href="http://www.atmel.com/tools/ATMELAVRTOOLCHAINFORWINDOWS.aspx">AVR Toolchain</a></li>
+  <li>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll.</li>
+  <li>File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</li>
+  <li>If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</li>
 </ul>
 
 
@@ -207,6 +202,17 @@ viewBox="0 0 8020 8021"
 
 	<script src="/javascripts/jquery.min.js"></script>
 	<script src="/javascripts/bootstrap.min.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83047623-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </body>
 
 </html>
